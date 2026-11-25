@@ -1,0 +1,6 @@
+{"timestamp":"2026-11-25T09:00:01.000+0000","id":"1764061201.100","rule":{"id":"5710","level":5,"description":"sshd: attempt to login using a non-existent user","groups":["authentication_failed"]},"agent":{"id":"001","name":"web-01","ip":"10.0.0.10"},"data":{"srcip":"203.0.113.7"}}
+{"timestamp":"2026-11-25T09:00:05.000+0000","id":"1764061205.101","rule":{"id":"5712","level":10,"description":"sshd: brute force attack","groups":["authentication_failures"]},"agent":{"id":"001","name":"web-01","ip":"10.0.0.10"},"data":{"srcip":"203.0.113.7"}}
+{"timestamp":"2026-11-25T09:01:10.000+0000","id":"1764061270.102","rule":{"id":"100100","level":14,"description":"Possible privilege escalation","groups":["privilege_escalation"]},"agent":{"id":"002","name":"db-01","ip":"10.0.0.20"}}
+{"timestamp":"2026-11-25T09:02:00.000+0000","id":"1764061320.103","rule":{"description":"event without a level"},"agent":{"id":"002","name":"db-01"}}
+not a json line
+{"timestamp":"2026-11-25T09:03:00.000+0000","id":"1764061380.104","rule":{"id":"31101","level":6,"description":"Web server 400 error code","groups":["web"]},"agent":{"id":"003","name":"web-02","ip":"10.0.0.11"},"data":{"srcip":"198.51.100.23"}}

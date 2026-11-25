@@ -1,0 +1,5 @@
+#fields ts uid note msg (comment lines like this are skipped)
+{"ts":1764061200.5,"uid":"CZ1","note":"Scan::Port_Scan","msg":"198.51.100.5 scanned 20 unique ports of host 10.0.0.10","src":"198.51.100.5","dst":"10.0.0.10"}
+{"ts":1764061260.1,"uid":"CZ2","note":"SSH::Password_Guessing","msg":"203.0.113.7 appears to be guessing SSH passwords","src":"203.0.113.7","dst":"10.0.0.10"}
+{"ts":1764061300.0,"uid":"CZ3","note":"Weird::Activity","msg":"a notice type that is not in the severity table","id.orig_h":"10.0.0.11","id.resp_h":"192.0.2.44"}
+{"ts":1764061310.0,"uid":"CZ4","id.orig_h":"10.0.0.11","id.resp_h":"192.0.2.44","proto":"tcp"}
